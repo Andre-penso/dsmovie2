@@ -2,5 +2,27 @@
 
 
 *{
+    box-sizing: border-box;
     font-family: 'Opens Sans', sans-serif;
+}
+
+html, body {
+    background-color: #ddd;
+}
+
+header {
+
+    background-color: #4D41C0;
+    color: #FFF;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
 }
