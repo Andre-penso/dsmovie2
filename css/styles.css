@@ -69,12 +69,14 @@ a, a:hover {
 
 .dsmovie-card {
     width: 100%;
+   
     
 }
 
 .dsmovie-card img {
     width: 100%;
-    border-radius: 8px 8px 0 0;
+    
+       border-radius: 8px 8px 0 0;
     
 }
 
@@ -109,4 +111,11 @@ a, a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+}
+
+.dsmovie-form-container{ /* espaçamento entre a img e o cabeçalho no form.ktml */
+
+    padding: 40px 0;
+    width: 480px;
+    
 }
